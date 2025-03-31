@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aula CSS - 1</title>
+
+	<style>
+		.card {
+			width: 500px;
+			height: fit-content;
+			background-color: aliceblue;
+			border-radius: 25px;
+			border: solid 2px navy;
+			margin: 20px;
+			padding: 40px;
+		}
+
+
+		.border {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+		}
+
+
+		.icone1 {
+			background-image: url("https://cdn-icons-png.flaticon.com/512/706/706830.png");
+			width: 100%;
+			height: 100%;
+			margin-top: 20px;
+			background-size: cover;
+		}
+
+
+		.icone2 {
+			background-image: url("https://cdn-icons-png.flaticon.com/256/3681/3681928.png");
+			width: 100%;
+			height: 100%;
+			margin-top: 20px;
+			background-size: cover;
+		}
+
+
+		.maincolor {
+			color: navy;
+		}
+	</style>
+
+
+
+
+
+<body>
+
+	<div class="card">
+
+		<div class="border">
+			<div class="icone1"></div>
+
+		</div>
+		<div>
+
+			<h1 style="font-family: monospace; font-size: 30px;">
+				Meu nome é:<span class="maincolor">Adriana</span></h1>
+
+			<p style="font-family: monospace; font-size: 15px;">
+				Mensagem:<span class="maincolor">A vida não é um morango!</span></p>
+		</div>
+	</div>
+
+	<div class="card">
+
+		<div class="border">
+			<div class="icone2"></div>
+
+		</div>
+		<div>
+			<h1 style="font-family: monospace; font-size: 30px;">
+				Meu nome é:<span class="maincolor">Hugo</span>
+			</h1>
+
+			<p style="font-family: monospace; font-size: 15px;">
+				Mensagem:<span class="maincolor">Um dia é da caça, o outro é do caçador.</span>
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>
